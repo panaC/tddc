@@ -6,7 +6,7 @@
 /*   By: pierre <pleroux@student.42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/27 10:46:33 by pierre            #+#    #+#             */
-/*   Updated: 2018/01/27 11:15:32 by pierre           ###   ########.fr       */
+/*   Updated: 2018/01/27 13:32:27 by pierre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int all_tests() {
 int main(int argc, char **argv) {
 	int result = all_tests();
 	if (result == 0)
-		printf("PASSED\n");
+		printf("\nRESULT : PASSED\n");
 	printf("Tests run: %d\n", tests_run);
 
 	return result != 0;
